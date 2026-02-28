@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ejercicio 1 - Galería</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Galería (JSONPlaceholder)</h1>
+
+    <div class="controls">
+      <label>
+        Álbum:
+        <input id="albumId" type="number" min="1" max="100" value="1" />
+      </label>
+      <button id="btnLoad">Cargar fotos</button>
+    </div>
+
+    <p id="status" class="status"></p>
+
+    <section id="gallery" class="grid"></section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>

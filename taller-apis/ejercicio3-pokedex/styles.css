@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, Arial, sans-serif; margin: 0; }
+.container { max-width: 800px; margin: 0 auto; padding: 16px; }
+.row { display: flex; gap: 10px; margin: 12px 0; }
+.row input { flex: 1; padding: 10px; border-radius: 10px; border: 1px solid #ccc; }
+.row button { padding: 10px 14px; border-radius: 10px; border: 1px solid #ccc; cursor: pointer; }
+.status { margin: 8px 0 12px; }
+
+.poke-card { border: 1px solid #ddd; border-radius: 12px; padding: 14px; display: grid; grid-template-columns: 180px 1fr; gap: 12px; }
+.poke-card img { width: 180px; height: 180px; object-fit: contain; background: #fafafa; border-radius: 10px; border: 1px solid #eee; }
+.poke-title { margin: 0; }
+.badges { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+.badge { font-size: 12px; border: 1px solid #ddd; padding: 4px 8px; border-radius: 999px; background: #fff; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.small { font-size: 12px; opacity: 0.9; }
+ul { margin: 6px 0 0; padding-left: 18px; }
